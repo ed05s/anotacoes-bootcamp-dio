@@ -1,0 +1,32 @@
+#COLLECTIONS
+*collection é um objeto que agrupa múltiplos elementos (variáveis primitivas ou objetos) dentro de uma única unidade.
+
+-Serve para armazenar e processar conjuntos de dados de forma eficiente
+
+-Antes do java 2 (jdk 1.2), a implementação de coleções na linguagem java incluía poucas poucas classes e não tinha organização
+de um *framework* 
+
+#COMPOSIÇÃO DA COLLECTIONS:
+
+- É um contrato que quando assumido por uma classe deve ser implementado
+
+- Implementações ou Classes são as materializações, a codificação das interfaces
+
+- Algorítimos : é uma sequência lógica, finita e definida de instruções para a resolução de um problema
+
+
+#coleções com iterações ordenadas(list)
+
+- Permite elementos duplicados e garante ordem de inserção
+
+1-implementação Vector
+
+
+
+2-implementação ArrayList (*array*)
+   + usado onde mais operações de pesquisa são necessários (pesquisas e consultas de dados)
+
+
+3-implementação LinkedList (*lista duplamente encadeada*)
+   + usado onde mais operações de inserção e exclusão são necessários(manipulação de dados)
+
