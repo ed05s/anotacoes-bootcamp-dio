@@ -1,0 +1,17 @@
+    
+	ESTRUTURA DE DADOS
+	 
+    1 memória secundaria = mantem os dados mesmo sem energia
+
+    2 memoria primaria(RAM) não matem os dados sem energia
+
+     a memoria ram é composta de diversos chips, regiões da memoria ram,
+     cada chip mantem por um tempo milhões de bits,
+   
+      
+	 
+     Conceito de Nó
+	 
+	 o nó é um espaço da memória que não grava apenas o dado mas também a referencia para o próximo nó
+	 a referencia serve para linkar os nós e fazer uma cadeia de nós, o ultimo nó é apontado para nulo.
+	

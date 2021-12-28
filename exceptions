@@ -1,0 +1,42 @@
+#Tratamento de exceções
+
+*exceção é ume evento que interrompe o fluxo normal do processamneto de uma classe
+
+- o uso correto de exceções torna o programa mais robusto e confiável
+
+- com o tratamento da exceção  oprograma pode continuar executando depois de lidar com o problema
+
+- incorpore sua estratégia de tratamento de exceções desde o princípio do processo do projeto
+
+#ERROR :
+- usado pela JVM que serve para indicar se existe algum problema de recurso do programa, tornando a execução impossível
+de continuar.
+
+- erros não são checados pelo compilador (eventos irrecuperáveis, não é possível fazer um try catch)
+
+
+#EXCEPTIONS:
+-Condições checadas pelo compilador(eventos recuperáveis)
+
+
+
+#UNCHEKED (RUNTIME):
+-exceção que PODEM  ser evitados se forem tratados e analisados pelo desenvolvedor(tratamento opcional)
+-não checadas pelo compilador (erros de lógica)
+
+
+#CHECKED EXCEPTION:
+-Exceptions que DEVEM ser evitados e tratados pelo desenvolvedor para o programa funcionar(tratamento obrigatório)
+
+
+#TRY,CATCH,FINALLY:
+-Cada uma dessas palavras,juntas ,definem blocos para o tratamento de exceções
+
+- THROWS: Declara que um método pode lançar uma ou várias exceções
+
+- THROW : LAmça explicitamente uma exception( exceptions personalizadas)
+
+
+
+
+ 

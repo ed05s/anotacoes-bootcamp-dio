@@ -1,0 +1,79 @@
+    
+	#ESTRUTURA DE DADOS 
+	 
+    1 memória secundaria = mantem os dados mesmo sem energia
+
+    2 memoria primaria(RAM) não matem os dados sem energia
+
+     a memoria ram é composta de diversos chips, regiões da memoria ram,
+     cada chip mantem por um tempo milhões de bits,
+   
+      
+	 
+     ##CONCEITO DE NÓ
+	 
+	 o nó é um espaço da memória que não grava apenas o dado mas também a referencia para o próximo nó
+	 a referencia serve para linkar os nós e fazer uma cadeia de nós, o ultimo nó é apontado para nulo
+	 
+	 -lista encadeada simples
+	 
+	 #faz referencia apenas ao nó que está a frente, 
+	 
+	-lista encadeada dupla
+	
+	#faz referencia ao nó da frente e ao nó de tras, seu ultimo nó aponta para null
+	
+	-Lista o ultimo nó(cabeça) aponta para o primeiro nó (cauda)
+	
+	
+	
+	##ARVORES
+	Estrutura de dados bidimensional 
+	não linear
+	
+	!utilização!
+	
+	interfaces graficas
+	banco de dados
+	sistemas de arquivos
+	páginas web
+	
+	- primeiro elemento da arvore se chama "Raíz"
+	- os Nós se chamam de "Folhas"
+	
+	##características
+	-nó
+	-raíz
+	-pai e filho
+	-irmão(filhos do mesmo pai)
+	-nível de um nó(posição hierárquica)
+	-folha ou nó terminal
+	-nó interno
+	-grau de um nó(indicado pelo numero de filhos)
+	-subArvore(formada a partir do nó da arvore principal)
+	
+	#ÁVORE BINÁRIA
+	-Posição dos nós
+	-Maiores a direita
+	-Menores a esquerda
+	
+	#inserção
+	-maiores para direita
+	
+	-menores a esquerda
+	
+	#exclusão
+	-pega o maior elemento da esquerda e substitui no nó exlcuído
+	
+	###Tipos de atravessamento em arvore
+	 ##(1.in-Ordem-
+	     primeiro visita o no esquerda depois exibe o nó, e depois visita o nó a direita,exibe em ordem crescente
+	   
+	
+	##(2.Pré-Ordem-
+	     primeiro exibe e deois visita, primeira entra na raiz exibe o nó e depois vai pra subarvores mais a esquerda
+		 e depois mais a direita e volta no looping exibindo
+	
+	##(3.Pós-Ordem-
+	    visita primeiro pra depois exibir
+	    
