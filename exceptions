@@ -34,7 +34,7 @@ de continuar.
 
 - THROWS: Declara que um método pode lançar uma ou várias exceções
 
-- THROW : LAmça explicitamente uma exception( exceptions personalizadas)
+- THROW : Lança explicitamente uma exception( exceptions personalizadas)
 
 
 
