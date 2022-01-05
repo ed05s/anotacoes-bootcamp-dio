@@ -41,6 +41,7 @@ de um *framework*
   no maximo 1 null
   não possui métodos get e set
   
+  
 
 2-TreeSet
     treemap para armazenar elementos
@@ -51,6 +52,31 @@ de um *framework*
   extende de hashset
   mantém a ordem dos elementos
   no maximo 1 null
+
+# INTERFACE JAVA.UTIL.MAP 
+
+* não estende da interface collection
+* faz parte do framework
+
+- Elementos únicos( key) para cada valor(value)
+- não existem chaves repetidas, mas existem valores repetidos
+
+-1 HashTable
+
+-2 TreeMap (ordem natural das chaves)
+-não permite chaves nulas
+
+-3 HashMap
+- permite chaves nulas
+
+
+
+-4 LinkedHashMap ( estende da hashmap)
+-permite chaves nulas
+
+- mostra por ordem de inserção
+
+
 
 
 
