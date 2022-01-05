@@ -29,28 +29,4 @@ de um *framework*
 
 3-implementação LinkedList (*lista duplamente encadeada*)
    + usado onde mais operações de inserção e exclusão são necessários(manipulação de dados)
-   
-#  INTERFACE JAVA.UTIL.SET
-- não permite elementos duplicados
-
-- não possui indice
-
-1-HashSet
-  hashMap para armazenar elemetos
-  não mantém a ordem dos elementos
-  no maximo 1 null
-  não possui métodos get e set
-  
-
-2-TreeSet
-    treemap para armazenar elementos
-	por default matém a ordem natural dos elementos ( crescente ou alfabética
-	não permite null
-
-3-LinkedHashset
-  extende de hashset
-  mantém a ordem dos elementos
-  no maximo 1 null
-
-
 
